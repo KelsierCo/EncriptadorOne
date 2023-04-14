@@ -17,7 +17,7 @@
     </header>
     <main>
         <div>
-            <textarea id="textArea" rows="10" cols="15">Ingrese el texto aquí</textarea>
+            <textarea id="textArea" rows="10" cols="15" placeholder="Ingrese el texto aquí"></textarea>
             <p>&#128712;solo letras minusculas y sin acentos</p>
         </div>
         <section class="botones">
@@ -29,9 +29,11 @@
             </button>
         </section>
         <section class="traduccion">
-            <div class="mensaje">
+            <div id="mensaje" class="mensaje" >
                 Ningún mensaje fue encontrado
             </div>
+            <div id="respuesta" class="respuesta">Ingresa el texto que deseas encriptar o desencriptar</div>
+            <button id="copiar">Copiar</button>
         </section>
     </main>
     <script src="./index.js"></script>

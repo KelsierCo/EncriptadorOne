@@ -70,8 +70,16 @@ button{
     background-color: #0A3871;
 }
 
+#encriptar:hover{
+    background-color: #072B61;
+}
+
 #desencriptar{
     color: #0A3871;
+}
+
+#desencriptar:hover{
+    background-color: #E9ECF8;
 }
 
 .traduccion{
@@ -97,4 +105,32 @@ button{
     /* Gray/gray-500 */
 
     color: #343A40;
+}
+
+.hidenMensaje{
+    display: none;
+}
+
+.respuesta{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+}
+
+#copiar{
+    color: #0A3871;
+    display: none;
+}
+
+#copiar:hover{
+    background-color: #E9ECF8;
 }
