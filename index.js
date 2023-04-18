@@ -37,14 +37,14 @@ function desencriptarTexto(texto){
 
 encriptar.onclick = () => {
   mensaje.classList.add("hidenMensaje")
-  copiar.style.display="block";
+  copiar.style.display="flex";
   respuesta.textContent = encriptarTexto(textarea.value)
   textarea.value = "";
 }
 
 desencriptar.onclick = () => {
   mensaje.classList.add("hidenMensaje")
-  copiar.style.display="block";
+  copiar.style.display="flex";
   respuesta.textContent = desencriptarTexto(textarea.value)
   textarea.value = "";
 }
