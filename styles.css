@@ -180,11 +180,6 @@ button{
         display: flex;
     }
 
-    main > section{
-        display: inline-block;
-        vertical-align: top;
-    }
-
     .ingreso{
         padding-left: 7%;
         width: 60%;
